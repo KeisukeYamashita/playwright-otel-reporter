@@ -1,0 +1,35 @@
+{
+	"name": "playwright-otel-reporter",
+	"version": "0.1.0",
+	"description": "OpenTelemetry test reporter for Playwright",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"format": "biome format --write",
+		"test": "playwright test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/KeisukeYamashita/playwright-opentelemetry-reporter.git"
+	},
+	"keywords": [
+		"opentelemetry",
+		"otel",
+		"playwright",
+		"reporter",
+		"test"
+	],
+	"author": "KeisukeYamashita <19yamashita15@gmail.com>",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/KeisukeYamashita/playwright-opentelemetry-reporter/issues"
+	},
+	"homepage": "https://github.com/KeisukeYamashita/playwright-opentelemetry-reporter#readme",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"typescript": "^5.8.2"
+	},
+	"dependencies": {
+		"@playwright/test": "^1.51.1"
+	}
+}
